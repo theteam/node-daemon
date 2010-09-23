@@ -1,0 +1,12 @@
+{
+  "name" : "node-daemon",
+  "description" : "Simple daemon like features to stop running applications and capture pid",
+  "version" : "0.1",
+  "author" : "Robbie Clutton <robert.clutton@gmail.com>",
+  "engines" : ["node"], 
+  "main" : "lib/deamon.js",
+  "directories" : { "lib" : "./lib" },
+  "repositories" : [
+    { "type":"git", "url":"http://github.com/theteam/node-daemon.git" }
+  ]
+}
